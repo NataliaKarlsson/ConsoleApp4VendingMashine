@@ -18,7 +18,7 @@ namespace ConsoleApp4VendingMashine.Model
         }
         public Product(int id, int priceOfProduct, string productName)
         {
-            this.id = id + 1;
+            this.id = id;
             PriceOfProduct = priceOfProduct;
             ProductName = productName;
         }
